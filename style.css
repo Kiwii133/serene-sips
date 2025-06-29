@@ -7,6 +7,13 @@
 html {
   scroll-behavior: smooth;
 }
+.container {
+  width: 300px;
+  height: 150px;
+  border: 1px solid #000;
+  margin: 20px auto;
+  /* background : color image repeat attachment position */
+}
 header {
   text-align: center;
   padding: 50px 0;
@@ -29,7 +36,24 @@ header button {
   border: none;
   margin-top: 20px;
 }
-
+.bg-large {
+  position: absolute;
+  background-image: url(images/c44.png);
+  left: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 200px;
+}
+.bg-small {
+  position: absolute;
+  background-image: url(images/c22.png);
+  right: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 200px;
+}
 /*nav section*/
 nav {
   text-align: center;
@@ -45,8 +69,37 @@ nav ul li {
 }
 nav ul li a {
   color: #49281a;
+  display: block;
   text-decoration: none;
 }
+/*.container {
+  background-image: url(images/C2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #e0d8d4;
+  width: 1500px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content h1 {
+  font-size: 4rem;
+  color: #e7e1de;
+  text-align: center;
+  background-color: transparent;
+}
+.content p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #e6dfdc;
+  background-color: transparent;
+}
+.content {
+  background-color: transparent;
+}*/
 
 /*menu section*/
 #menu,

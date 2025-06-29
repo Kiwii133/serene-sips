@@ -3,20 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="images/SERENE.jpg" type="image/x-icon" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
-
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Serene Sip Cafe</title>
   </head>
+
   <body>
     <!--header section-->
     <header id="header">
+      <div class="bg-large"></div>
+      <div class="bg-small"></div>
       <h1>Welcome to Serene Sips</h1>
       <p>Indulge in the finest coffee experience crafted just for you.</p>
-      <a href="Menu">Explore More Menu</a>
+      <a href="#menu">Explore More Menu</a>
     </header>
 
     <!--navigation section-->
@@ -32,146 +37,162 @@
     <!--our menu section-->
     <section id="menu">
       <div class="menu-list">
-      <h2>Our Menu</h2>
-      <h3>Coffee Selections</h3>
+        <h3>Coffee Selections</h3>
 
-      <div class="card">
-        <img
-          src="images/Espresso.jpg"
-          alt="Espresso"
-          class="card-img-top"
-        />
-        <div class="card-body">
-          <h4 class="card-title">Espresso</h4>
-          <p class="card-text">
-            - Strong and bold coffee with a rich flavour. <br />
-            Perfect for a quick caffenie boost.<br />
-            <span> $2.50</span>
-          </p>
-          <button class="btn">Order</button>
+        <div class="card">
+          <img
+            src="images/Espresso.jpg"
+            alt="Espresso"
+            width="200"
+            height="255"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Espresso</h4>
+            <p class="card-text">
+              - Strong and bold coffee with a rich flavour. <br />
+              Perfect for a quick caffenie boost.<br />
+              <span> $2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/latte.jpg"
+            alt="Latte"
+            width="250"
+            height="280"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Latte</h4>
+            <p class="card-text">
+              -Expresso with steamed milk and a hint of vinilla. <br />
+              Smooth and aromatic <br />
+              <span> $2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Hc.jpg"
+            width="250"
+            height="280"
+            alt="HotChocolate"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h4 class="card-title">HotChocolate</h4>
+            <p class="card-text">
+              - Creamy hot milk mixed with rich chocolate.<br />
+              A comforting non-coffee option. <br />
+              <span> $2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/ic.jpg"
+            width="250"
+            height="305"
+            alt="IcedCoffee"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h4 class="card-title">IcedCoffee</h4>
+            <p class="card-text">
+              - Creamy hot milk mixed with rich coffee.<br />
+              <span> $2.53</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
+        </div>
+
+        <h3>Delicious Snacks</h3>
+        <div class="card">
+          <img
+            src="images/Cc.jpg "
+            width="250"
+            height="328"
+            alt="classic croissant"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Classic Croissant</h4>
+            <p class="card-text">
+              - Light, flaky, and buttery.<br />
+              A timeless delight.<br />
+              <span>$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Sd.jpg"
+            width="250"
+            height="280"
+            alt="StrawDanish"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h4 class="card-title">StrawberryDanish</h4>
+            <p class="card-text">
+              -Flaky pastry topped with sweet strawberry filling and a drizzle
+              of icing. <br />
+              A fruity and delightful treat. <br />
+              <span>$3.00</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/bm.jpg"
+            width="250"
+            height="280"
+            alt="BlueberryMuffin"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h4 class="card-title">BlueberryMuffin</h4>
+            <p class="card-text">
+              -Soft and fluffy muffin filled with juicy blueberries. <br />
+              A sweet and tangy treat perfect for any time of day.<br />
+              <span>$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Cg.jpg"
+            width="250"
+            height="280"
+            alt="ChessyGarlicBread"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h4 class="card-title">ChessyGarlicBread</h4>
+            <p class="card-text">
+              - Toasted bread loaded with melted cheese and garlic butter.<br />
+              A crispy, savory bite everyone loves.<br />
+              <span>$2.50</span>
+            </p>
+            <button class="btn">Order</button>
+          </div>
         </div>
       </div>
-
-      <div class="card">
-        <img
-          src="images/latte.jpg"
-          alt="Latte"
-          classs="card-img-top"
-        />
-        <div class="card-body">
-          <h4 class="card-title">Latte</h4>
-          <p class="card-text">
-            -Expresso with steamed milk and a hint of vinilla. <br/>
-           Smooth and aromatic  <br />
-            <span> $2.50</span>
-          </p>
-          <button class="btn">Order</button>
-        </div>
-      </div>
-
-     <div class="card">
-        <img
-          src="images/Mocha.jpg"
-          alt="Mocha"
-          classs="card-img-top"
-        />
-        <div class="card-body">
-          <h4 class="card-title">Mocha</h4>
-          <p class="card-text">
-            - A perfect blend of espresso,chocolate,and milk.<br />
-            Rich and sweet with a coca twist <br />
-            <span> $2.50</span>
-          </p>
-          <button class="btn">Order</button>
-        </div>
-      </div>
-
- <div class="card">
-        <img
-          src="images/HotChocolate.jpg"
-          alt="HotChocolate"
-          classs="card-img-top"
-        />
-        <div class="card-body">
-          <h4 class="card-title">HotChocolate</h4>
-          <p class="card-text">
-            - Creamy hot milk mixed with rich chocolate.<br />
-           A comforting non-coffee option.  <br />
-            <span> $2.50</span>
-          </p>
-          <button class="btn">Order</button>
-        </div>
-      </div>
-
-<div class="menu-list">
-      <h3>Delicious Snacks</h3>
-      <div class="card">
-        <img
-          src="images/ClassicCroissant1.jpg "
-          alt="classic croissant"
-          class="card-img-top"
-        />
-        <div class="card-body">
-          <h4 class="card-title">Classic Croissant</h4>
-          <p class="card-text">
-            - Light, flaky, and buttery.<br />
-            A timeless delight.<br />
-           <span>$2.50</span>
-          </p>
-           <button class="btn">Order</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <img
-          src="images/StrawDanish2.jpg"
-          alt="StrawDanish"
-          class="card-img-top"
-        />
-        <div class="card-body">
-          <h4 class="card-title">StrawberryDanish</h4>
-          <p class="card-text">
-            -Flaky pastry topped with sweet strawberry filling and a drizzle of icing. <br />
-           A fruity and delightful treat. <br />
-           <span>$3.00</span>
-          </p>
-           <button class="btn">Order</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <img
-          src="images/BlueberryMuffin.jpg"
-          alt="BlueberryMuffin"
-          class="card-img-top"
-        />
-        <div class="card-body">
-          <h4 class="card-title">BlueberryMuffin</h4>
-          <p class="card-text">
-            -Soft and fluffy muffin filled with juicy blueberries. <br />
-            A sweet and tangy treat perfect for any time of day.<br />
-           <span>$2.50</span>
-          </p>
-           <button class="btn">Order</button>
-        </div>
-      </div>
-
-<div class="card">
-        <img
-          src="images/ChessyGarlicBread.jpg"
-          alt="ChessyGarlicBread"
-          class="card-img-top"
-        />
-        <div class="card-body">
-          <h4 class="card-title">ChessyGarlicBread</h4>
-          <p class="card-text">
-            - Toasted bread loaded with melted cheese and garlic butter.<br />
-            A crispy, savory bite everyone loves.<br />
-           <span>$2.50</span>
-          </p>
-           <button class="btn">Order</button>
-        </div>
-      </div>
+    </section>
 
     <!--about us section-->
     <section id="about-us">
@@ -235,3 +256,5 @@
     </footer>
   </body>
 </html>
+class="container">
+<div class="content"></div>
