@@ -124,7 +124,7 @@ nav ul li a {
 #about-us,
 #contact {
   width: 90%;
-  margin: 20px auto;
+  margin: 50px auto;
 }
 #menu h2,
 #about-us h2,
@@ -218,4 +218,10 @@ footer {
 }
 footer p {
   font-size: 0.9rem;
+}
+footer a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #49281a;
 }
